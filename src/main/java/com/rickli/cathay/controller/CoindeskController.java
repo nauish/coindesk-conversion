@@ -2,7 +2,6 @@ package com.rickli.cathay.controller;
 
 import com.rickli.cathay.dto.CoindeskApiResponse;
 import com.rickli.cathay.service.CoindeskService;
-import com.rickli.cathay.service.CurrencyService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -15,7 +14,7 @@ public class CoindeskController {
 
     private final CoindeskService coindeskService;
 
-    public CoindeskController(CoindeskService coindeskService, CurrencyService currencyService) {
+    public CoindeskController(CoindeskService coindeskService) {
         this.coindeskService = coindeskService;
     }
 
