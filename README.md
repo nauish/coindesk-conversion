@@ -91,7 +91,7 @@ INSERT INTO "CURRENCY" (code, name) VALUES
        }
      ```
      
-    + `DELETE`刪除貨幣 `/api/v1/currency/`
+    + `DELETE`刪除貨幣 `/api/v1/currency/{代碼}`
        ```
       // REQUEST to /api/v1/currency/EUR
        ```
